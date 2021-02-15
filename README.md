@@ -5,27 +5,27 @@
 - สามารถเพิ่มรายการใหม่เข้าไปได้โดยการพิมพ์ชื่อ Task ใน Textbox "Task" ด้านล่าง แล้วกดปุ่ม "Save"
 - โดย Default เมื่อสร้าง Task ขึ้นใหม่จะมีสถานะ "Incomplete" เสมอ
 
-[IMG TODO1]
+![ToDo1](https://github.com/bundit-it/MINI-PROJECT/blob/main/TODO%201.png)
 
 ### 2. เพิ่มปุ่ม icon รูปดินสอ เมื่อกดแล้วให้มี [Modal](https://bulma.io/documentation/components/modal/) เปิดขึ้นมาสำหรับแก้ไขดังรูป
 - หน้า Modal มีส่วนประกอบดังนี้
   1. ช่อง Textbox สำหรับแก้ไขชื่อ Task
   2. ปุ่ม "Save" เมื่อกดจะทำการบันทึกการแก้ไข
 
-[IMG TODO2]
+![ToDo2](https://github.com/bundit-it/MINI-PROJECT/blob/main/TODO%202.png)
 
 ### 3. เพิ่มปุ่ม icon รูปถังขยะ สำหรับลบรายการ Task นั้น ๆ เมื่อกดแล้วให้มี [Modal](https://bulma.io/documentation/components/modal/) เปิดขึ้นมาสำหรับยืนยันการลบดังรูป
 
-[IMG TODO3]
+![ToDo3](https://github.com/bundit-it/MINI-PROJECT/blob/main/TODO%203.png)
 
 ### 4. ด้านบนของรายการ ToDo ให้แสดงผลการนับจำนวน Task ที่มีสถานะ Completed และ Incomplete ดังรูป
 ***จะต้องใช้ Computed Properties เท่านั้น***
 
-[IMG TODO4]
+![ToDo4](https://github.com/bundit-it/MINI-PROJECT/blob/main/TODO%204.png)
 
 ### 5. เพิ่ม Filters สำหรับการกรองรายการ Task โดยสามารถกรองได้ดังนี้
 - "Hide completed tasks" เป็น Checkbox คือเมื่อติ้กจะทำการ**ซ่อน** Task ที่มีสถานะ "Complete"
 - "Sort incomplete tasks" เป็น Checkbox คือเมื่อติ้กจะทำเรียงลำดับ (sort) รายการ Task โดยเอารายการที่มีสถานะ "Incomplete" ขึ้นไว้ด้านบน
 - "Filter by task name" เป็น Textbox สำหรับค้นหา Task ด้วยชื่อ
 
-[IMG TODO5]
+![ToDo5](https://github.com/bundit-it/MINI-PROJECT/blob/main/TODO%205.png)
