@@ -1,7 +1,10 @@
 # TODO List App
 
 ### 1. ทำการสร้างหน้าเวบ My ToDo List โดยใช้ HTML และ Bulma CSS และ Vue JS ดังรูป
-- รายการ Task เป็น Checkbox และเมื่อติ้ก Checkbox จะเปลี่ยนสถานะของ Task เป็น "Completed"
+- รายการ Task เป็น Checkbox และเมื่อติ้ก Checkbox จะเปลี่ยนสถานะของ Task เป็น "Completed" และขีดฆ่าชื่อ Task นั้น
+```
+style="text-decoration: line-through;"
+```
 - สามารถเพิ่มรายการใหม่เข้าไปได้โดยการพิมพ์ชื่อ Task ใน Textbox "Task Name" ด้านล่าง แล้วกดปุ่ม "Save"
 - โดย Default เมื่อสร้าง Task ขึ้นใหม่จะมีสถานะ "Incomplete" เสมอ
 
